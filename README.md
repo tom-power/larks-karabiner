@@ -7,4 +7,4 @@ cd right-shift-vi-like-karabiner
 ```
 The rules will need to be loaded in the Karabiner elements UI:
 
-```"Preferences" -> "Complex Modifications" -> "Add rule" -> "..." -> "Enable all"```
+```"Preferences" -> "Complex Modifications" -> "Add rule" -> "larks ..." -> "Enable all"```
