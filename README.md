@@ -2,7 +2,7 @@
 
 ```
 clone https://github.com/tom-power/larks-karabiner.git
-cd right-shift-vi-like-karabiner
+cd larks-karabiner
 ./install.sh
 ```
 The rules will need to be loaded in the Karabiner elements UI:
