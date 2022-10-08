@@ -1,7 +1,6 @@
 {
   "title": "larks command control",
   "rules": [
-    ,
     {
       "description": "@ (left_shift + ')",
       "manipulators": [{
