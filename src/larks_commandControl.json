@@ -90,6 +90,24 @@
         }],
         "type": "basic"
       }]
+    },    
+    {
+      "description": "Control q (left_command+q to right_control+q)",
+      "manipulators": [{
+        "from": {
+          "key_code": "q",
+          "modifiers": {
+            "mandatory": ["left_command"]
+          }
+        },
+        "to": [{
+          "key_code": "q",
+          "modifiers": [
+            "right_control"
+          ]
+        }],
+        "type": "basic"
+      }]
     }
   ]
 }
