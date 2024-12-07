@@ -3,7 +3,7 @@
 ```
 clone https://github.com/tom-power/larks-karabiner.git
 cd larks-karabiner
-./install.sh
+./sh/install.sh
 ```
 The rules will need to be loaded in the Karabiner elements UI:
 
