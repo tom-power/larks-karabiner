@@ -10,9 +10,6 @@
             "modifiers": {
               "mandatory": [
                 "left_control"
-              ],
-              "optional": [
-                "any"
               ]
             }
           },
@@ -34,9 +31,48 @@
             "modifiers": {
               "mandatory": [
                 "left_control"
-              ],
-              "optional": [
-                "any"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_down"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Page up fn (fn+backspace)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "delete_or_backspace",
+            "modifiers": {
+              "mandatory": [
+                "fn"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "page_up"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "Page down fn (fn+backspace)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "return_or_enter",
+            "modifiers": {
+              "mandatory": [
+                "fn"
               ]
             }
           },
