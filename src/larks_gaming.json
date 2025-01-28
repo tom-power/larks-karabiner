@@ -1,0 +1,26 @@
+{
+  "title": "larks gaming",
+  "rules": [
+    {
+      "description": "left click (q+left_command to left click)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_command"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button1"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    }
+  ]
+}
