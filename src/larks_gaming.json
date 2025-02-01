@@ -2,7 +2,7 @@
   "title": "larks gaming",
   "rules": [
     {
-      "description": "left click (q+left_command to left click)",
+      "description": "right click (q+left_command to right click)",
       "manipulators": [
         {
           "from": {
@@ -15,7 +15,7 @@
           },
           "to": [
             {
-              "pointing_button": "button1"
+              "pointing_button": "button2"
             }
           ],
           "type": "basic"
