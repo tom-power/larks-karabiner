@@ -1,5 +1,6 @@
 {
   "title": "larks command control",
+  "description": "for the terminal",
   "rules": [
     {
       "description": "Control b (left_command+b to right_control+b)",
@@ -12,24 +13,6 @@
         },
         "to": [{
           "key_code": "b",
-          "modifiers": [
-            "right_control"
-          ]
-        }],
-        "type": "basic"
-      }]
-    },
-    {
-      "description": "Control h (left_command+h to right_control+h)",
-      "manipulators": [{
-        "from": {
-          "key_code": "h",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "h",
           "modifiers": [
             "right_control"
           ]
@@ -66,42 +49,6 @@
         },
         "to": [{
           "key_code": "l",
-          "modifiers": [
-            "right_control"
-          ]
-        }],
-        "type": "basic"
-      }]
-    },
-    {
-      "description": "Control p (left_command+p to right_control+p)",
-      "manipulators": [{
-        "from": {
-          "key_code": "p",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "p",
-          "modifiers": [
-            "right_control"
-          ]
-        }],
-        "type": "basic"
-      }]
-    },    
-    {
-      "description": "Control q (left_command+q to right_control+q)",
-      "manipulators": [{
-        "from": {
-          "key_code": "q",
-          "modifiers": {
-            "mandatory": ["left_command"]
-          }
-        },
-        "to": [{
-          "key_code": "q",
           "modifiers": [
             "right_control"
           ]
