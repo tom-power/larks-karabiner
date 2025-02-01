@@ -18,7 +18,15 @@
               "pointing_button": "button1"
             }
           ],
-          "type": "basic"
+          "type": "basic",
+          "conditions": [
+            {
+              "type": "frontmost_application_unless",
+              "bundle_identifiers": [
+                "^com\\.moonlight-stream\\.Moonlight$"
+              ]
+            }
+          ]
         }
       ]
     }
