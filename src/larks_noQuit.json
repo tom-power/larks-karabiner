@@ -1,8 +1,8 @@
 {
-  "title": "larks gaming",
+  "title": "larks no quit",
   "rules": [
     {
-      "description": "right click (q+left_command to right click)",
+      "description": "left click (q+left_command to left click)",
       "manipulators": [
         {
           "from": {
@@ -15,7 +15,7 @@
           },
           "to": [
             {
-              "pointing_button": "button2"
+              "pointing_button": "button1"
             }
           ],
           "type": "basic"
