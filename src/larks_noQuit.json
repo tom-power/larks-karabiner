@@ -23,6 +23,28 @@
       ]
     },
     {
+      "description": "middle click (q+left_shift+left_command to middle click)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "q",
+            "modifiers": {
+              "mandatory": [
+                "left_command",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "pointing_button": "button3"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
+    },
+    {
       "description": "middle click (v+fn to middle click)",
       "manipulators": [
         {
