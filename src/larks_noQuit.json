@@ -18,15 +18,28 @@
               "pointing_button": "button1"
             }
           ],
-          "type": "basic",
-          "conditions": [
-            {
-              "type": "frontmost_application_unless",
-              "bundle_identifiers": [
-                "^com\\.moonlight-stream\\.Moonlight$"
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "description": "middle click (v+fn to middle click)",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "v",
+            "modifiers": {
+              "mandatory": [
+                "fn"
               ]
             }
-          ]
+          },
+          "to": [
+            {
+              "pointing_button": "button3"
+            }
+          ],
+          "type": "basic"
         }
       ]
     }
