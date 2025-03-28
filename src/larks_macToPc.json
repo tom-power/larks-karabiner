@@ -1,5 +1,5 @@
 {
-  "title": "larks ansi to iso",
+  "title": "larks mac to pc",
   "rules": [
     {
       "description": "@ (left_shift + ')",
@@ -18,13 +18,7 @@
             "left_shift"
           ]
         }],
-        "type": "basic",
-        "conditions": [
-            {
-                "keyboard_types": ["ansi"],
-                "type": "keyboard_type_if"
-            }
-        ]
+        "type": "basic"        
       }]
     },
     {
@@ -44,13 +38,7 @@
             "left_shift"
           ]
         }],
-        "type": "basic",
-        "conditions": [
-            {
-                "keyboard_types": ["ansi"],
-                "type": "keyboard_type_if"
-            }
-        ]
+        "type": "basic"
       }]
     },
     {
@@ -70,13 +58,7 @@
             "left_shift"
           ]
         }],
-        "type": "basic",
-        "conditions": [
-            {
-                "keyboard_types": ["ansi"],
-                "type": "keyboard_type_if"
-            }
-        ]
+        "type": "basic"
       }]
     }
   ]
