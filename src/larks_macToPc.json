@@ -60,6 +60,26 @@
         }],
         "type": "basic"
       }]
+    },
+    {
+      "description": "# (right_shift + 3)",
+      "manipulators": [{
+        "from": {
+          "key_code": "3",
+          "modifiers": {
+            "mandatory": [
+              "right_shift"
+            ]
+          }
+        },
+        "to": [{
+          "key_code": "3",
+          "modifiers": [
+            "left_option"
+          ]
+        }],
+        "type": "basic"
+      }]
     }
   ]
 }
